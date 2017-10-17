@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>jQuery Calculator</title>
-
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.js"
+      integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
+      crossorigin="anonymous"></script>
     <script defer src="js/jquery.js"></script>
     <script defer src="js/index.js"></script>
 
@@ -18,22 +21,22 @@
       <div id="buttons-container">
         <div class="buttons">
           <span class="operator" id="clear">C</span>
-          <span class="operator">÷</span>
-          <span class="operator">x</span>
-          <span>7</span>
-          <span>8</span>
-          <span>9</span>
-          <span class="operator">-</span>
-          <span>4</span>
-          <span>5</span>
-          <span>6</span>
-          <span class="operator">+</span>
-          <span>1</span>
-          <span>2</span>
-          <span>3</span>
+          <span class="operator" id='divide'>÷</span>
+          <span class="operator" id='multiply'>x</span>
+          <span class='numbers'>7</span>
+          <span class='numbers'>8</span>
+          <span class='numbers'>9</span>
+          <span class="operator" id='subtraction'>-</span>
+          <span class='numbers'>4</span>
+          <span class='numbers'>5</span>
+          <span class='numbers'>6</span>
+          <span class="operator" id='add'>+</span>
+          <span class='numbers'>1</span>
+          <span class='numbers'>2</span>
+          <span class='numbers'>3</span>
           <span class="operator" id="equals">=</span>
           <div class="l-row">
-            <span id="zero">0</span>
+            <span id="zero" class='numbers'>0</span>
           </div>
         </div>
       </div>
