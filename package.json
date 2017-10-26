@@ -1,0 +1,27 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "description": "Use jQuery to build a basic calculator using the provided HTML and CSS.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magin3191/jquery-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magin3191/jquery-calculator/issues"
+  },
+  "homepage": "https://github.com/magin3191/jquery-calculator#readme"
+}
